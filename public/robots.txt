@@ -1,0 +1,14 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+allow:/
+allow:/family-farmhouse-wada
+allow:/best-farmstay-wada
+allow:/farmhouse-events-wada
+allow:/farmhouse-private-pool
+allow:/private-farmhouse-wada
+allow:/farmstay-near-wada
+# Host
+Host: https://omkarnaturefarm.in/
+
+# Sitemaps
+Sitemap: https://omkarnaturefarm.in/sitemap.xml

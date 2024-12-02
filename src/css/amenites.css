@@ -1,0 +1,40 @@
+#room p {
+    color: #111;
+    font-family: var(---robotFont);
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.activityCard .activityinfo p {
+    text-align: center;
+    color: #111;
+    font-weight: normal;
+    font-size: 1rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+@media (max-width: 320px){
+
+   
+    
+    }
+
+@media (min-width:700px){
+   
+
+}

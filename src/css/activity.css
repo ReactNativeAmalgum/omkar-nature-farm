@@ -1,0 +1,136 @@
+.activity {
+    overflow: hidden;
+  }
+  
+  .activity .fisrtImage {
+    
+    position: relative;
+    background: url(../media//nightpool.jpg);
+    background-size: 110% 110% !important;
+    -moz-background-size: 110% 110% !important;
+    -webkit-background-size: 110% 110% !important;
+    -o-background-size: 110% 110% !important;
+    -webkit-background-size: cover !important;
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    translate: 0.2s ease-in-out;
+  }
+  
+  .activity .fisrtImage:hover {
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    /* IE 9 */
+    transform: scale(1.03);
+  }
+  
+  .activity h3 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    padding: 10px 15px;
+    background-color: rgb(17, 17, 17, 0.7);
+    margin: 0;
+    font-family: "Platypi", serif;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  
+  .activity .secondImage {
+    position: relative;
+    background: url(https://lh3.googleusercontent.com/p/AF1QipPBqHurFCMvFjSk2kSVNlB0v2HbbZSkeZ7VA0TY=s1360-w1360-h1020);
+    background-size: 100% 100%;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    height: 330px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .titleSection h2 {
+    font-size: 2.4rem;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: var(---primeColor);
+    position: relative;
+    padding: 10px 0;
+}
+
+  
+  .activity .thiredImage {
+    position: relative;
+    background: url("../media/kohoj_fort.jpg");
+    background-size: 100% 100%;
+    object-fit: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    height: 320px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-position: center top;
+  }
+  
+  .activityServices {
+    /* background: linear-gradient(to left, rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.3)), url(img/roomsbanner.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 200px;
+      background-position: center top;
+      background-attachment: fixed; */
+    /* overflow: hidden; */
+  }
+  
+  .activityCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+    border: 1px solid var(---secondColor);
+    background-color: #fff;
+    backdrop-filter: blur(5px);
+  }
+  
+  .activityCard .activityIcon:hover {
+    transform: rotate(225deg);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .activityCard .activityIcon span {
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: #111;
+  }
+  
+  .activityCard .activityTittle h4 {
+    color: var(---primeColor);
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .activityCard .activityinfo p {
+    text-align: center;
+    color: #111;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  
