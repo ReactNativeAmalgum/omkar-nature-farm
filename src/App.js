@@ -10,7 +10,7 @@ import ContectPage from './js/Zpages/ContectPage';
 import GalleryPage from './js/Zpages/GalleryPage';
 import Whatsappicon from './js/Whatsappicon/Whatsappicon';
 import EventP from './js/Zpages/EventP';
-import MetaTags from 'react-meta-tags';
+// import MetaTags from 'react-meta-tags';
 import Page404 from './js/Page404';
 
 

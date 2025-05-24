@@ -29,7 +29,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Amenities from '../Amenities/Amenities';
 import { Fade, Slide } from "react-awesome-reveal";
 import { imagePath } from '../../media/imagePath'
-import { MetaTags } from 'react-meta-tags';
+// import { MetaTags } from 'react-meta-tags';
 
 const vila = imagePath.bannerfinal
 const villa = imagePath.accobg
@@ -41,7 +41,7 @@ function AccomodationP() {
   return (
     <>
 
-      <MetaTags>
+      {/* <MetaTags>
         <title>Farmhouse with Private Pool in Wada | Omkar Nature Farm</title>
         <meta title="Farmhouse with Private Pool in Wada | Omkar Nature Farm" />
         <meta name="description" content="Farmhouse in Wada, Farmhouse in Wada for Family, Best Farmstay in Wada, Farmhouse for Events in Wada, Farmhouse with Private Pool in Wada, Private Farmhouse in Wada, Farmstay near Wada," />
@@ -55,7 +55,7 @@ function AccomodationP() {
         <meta property="og:url" content="https://omkarnaturefarm.in/" />
         <meta property="og:description" content="Indulge in luxury and serenity at our Farmhouse with a Private Pool in Wada. Escape the urban chaos and immerse yourself in a tranquil oasis." />
         <meta property="og:image" content="https://kinararesort.in/static/media/logo.146c55d2a549f20e2963.png" />
-      </MetaTags>
+      </MetaTags> */}
 
       <Swiper
         spaceBetween={30}
